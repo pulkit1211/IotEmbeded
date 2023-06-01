@@ -1,0 +1,29 @@
+
+To accomplish the given task, you can follow these steps:
+
+Set up the Development Environment:
+
+Choose a microcontroller platform that supports persistent storage and network communication, such as ESP32 with FreeRTOS.
+Set up the necessary software development tools and libraries for your chosen microcontroller platform.
+Install any required SDKs or APIs for handling network communications, persistent storage, and measuring query time.
+Network Communication and Data Storage:
+
+Use the appropriate libraries or APIs provided by the microcontroller platform to establish a network connection.
+Implement logic to download the latest data from the given API when the system starts.
+Store the downloaded data in persistent storage, such as an SD card.
+Handle API failures by checking the response status and implementing appropriate error handling mechanisms. If the API fails, the system should use the old stored persistent data as a fallback option.
+User Input and Query Processing:
+
+Implement the functionality to accept user input (typing a key) through the console or any other input method available on your microcontroller.
+Retrieve the stored data from the persistent storage based on the provided key.
+Print the corresponding value to the console.
+Measure the query time and print it alongside the result. You can use timers or timestamps to measure the query time.
+Handle Border Cases:
+
+Take into consideration any border cases, such as handling invalid input, handling situations where the stored data is missing or corrupted, or handling scenarios where the API response is slow.
+Implement appropriate error handling and error messages to provide a robust user experience.
+Testing and Documentation:
+
+Test your code thoroughly to ensure its correctness and handle any potential issues or bugs.
+Create a GitHub repository to host your code and share the link as instructed.
+Make a small video demonstrating the hardware setup and the working of your code, showcasing the system starting up, querying the data, and printing the result with the query time.
