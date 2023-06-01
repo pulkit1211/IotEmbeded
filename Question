@@ -1,0 +1,30 @@
+IoT Embedded Developer Assignment 
+Dear Candidate, 
+As a part of our selection process, we would like you to undertake the following task so that you display your problem-solving skills, determination to work on newer technologies and conceptual clarity. 
+Task Timing: 2 days. 
+Task details: 
+API Link: Click Here 
+Following is the task: 
+1. When the system starts the latest data needs to be downloaded from the above API the data is stored in persistent storage like SD card 
+2. In case the above API fails the system still uses the old stored persistent data. Please handle any border cases 
+3. Task: 
+a. When anyone types a key from the above API e.g. "HYBpDQVhoCni2wuyCT" the console replies with the value e.g. 56 
+b. Also print the query time for the above e.g. “Time for query: 50msec” 
+Note: 
+1. Take care of any border/failure cases when writing the code 
+2. Submission of code written on ESP32 with FreeRTOS will be preferred. But you can use any micro-controller for the task (like Atmel, espressif(Preferred), STM, quectel, etc). The aim is to check if you can write the code following the best practices and deliver it in time with quality. 
+3. In case you are not able to do the above task within 2 days then to get back to me with whatever work you have done. 
+How to Submit: 
+1. Provide us with the Github link of the program. 
+2. Make a small video showing the Hardware and that working of the code. 
+Do note that if you are called for a face to face interview then you will be required to demonstrate your code on an actual microcontroller. 
+Address: First Floor, Hartron Complex, Plot-1 Udyog Vihar Phase-1, Gurgaon, Haryana-122016, India Email: info@parkzap.com, Website: www.parkzap.com, Phone: +91-9899337647,+91-9999318399
+
+Things to consider while writing the program: 
+● Examine the program flow. 
+● How will you debug the program? 
+● Variable naming 
+● Error Handling 
+How to submit the task 
+1. Make a small video of the demo 
+2. Upload code and the video on your GitHub account and share the link with us 
