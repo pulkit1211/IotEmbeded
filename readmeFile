@@ -1,0 +1,30 @@
+these steps to accomplish the task:
+
+Set up the Development Environment:
+
+Choose a microcontroller platform, such as ESP32 with FreeRTOS, or any other microcontroller that suits your preference.
+Set up the necessary software development tools and libraries for your chosen microcontroller platform.
+Install any required SDKs or APIs for handling network communications and storing data.
+Network Communication:
+
+Use the appropriate libraries or APIs provided by the microcontroller platform to establish a network connection.
+Implement logic to download the latest data from the given API when the system starts.
+Handle API failures by checking the response status and implementing appropriate error handling mechanisms. In case of failure, use the stored persistent data as a fallback option.
+Persistent Storage:
+
+Utilize the SD card or any other persistent storage option available on your chosen microcontroller platform.
+Implement logic to store the downloaded data onto the persistent storage.
+Ensure that the data is stored securely and can be accessed reliably.
+Query Functionality:
+
+Implement the functionality to accept user input (typing a key) through the console or any other input method available on your microcontroller.
+Use the stored data to look up the corresponding value based on the provided key.
+Print the value to the console along with the query time.
+Handle Border Cases:
+
+Take into consideration any border cases, such as handling invalid input, handling situations where the stored data is missing or corrupted, or handling scenarios where the API response is slow.
+Testing and Documentation:
+
+Test your code thoroughly to ensure its correctness and handle any potential issues or bugs.
+Create a GitHub repository to host your code and share the link as instructed.
+Create a small video demonstrating the hardware setup and the working of your code.
